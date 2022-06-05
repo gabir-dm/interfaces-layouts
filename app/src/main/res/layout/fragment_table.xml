@@ -1,14 +1,265 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".table">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Table Layout" />
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</FrameLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#09AC4C"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Situação Alunos Turma A"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:background="#E6FDEF">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Nome"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Média"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Situação"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Alana Vieira"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="8.7"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Aprovado"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Carlos Truggo"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="4.5"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Reprovado"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Lorenzo Branco"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="9.5"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Aprovado"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Mariana Vasconcelos"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="7.2"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Aprovado"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Tiago Boaventura"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="2.4"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Reprovado"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Virgínia Santos"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="8.1"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Aprovado"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
