@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/starter">
+    <fragment
+        android:id="@+id/starter"
+        android:name="com.example.ads_interfacesandroid_tp3.starter"
+        android:label="fragment_starter"
+        tools:layout="@layout/fragment_starter" >
+        <action
+            android:id="@+id/action_starter_to_linear"
+            app:destination="@id/linear" />
+        <action
+            android:id="@+id/action_starter_to_table"
+            app:destination="@id/table" />
+        <action
+            android:id="@+id/action_starter_to_relative"
+            app:destination="@id/relative" />
+    </fragment>
+    <fragment
+        android:id="@+id/linear"
+        android:name="com.example.ads_interfacesandroid_tp3.linear"
+        android:label="fragment_linear"
+        tools:layout="@layout/fragment_linear" />
+    <fragment
+        android:id="@+id/table"
+        android:name="com.example.ads_interfacesandroid_tp3.table"
+        android:label="fragment_table"
+        tools:layout="@layout/fragment_table" />
+    <fragment
+        android:id="@+id/relative"
+        android:name="com.example.ads_interfacesandroid_tp3.relative"
+        android:label="fragment_relative"
+        tools:layout="@layout/fragment_relative" />
+</navigation>
